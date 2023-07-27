@@ -1,0 +1,44 @@
+.header{
+    background: none;
+    display: flex;
+    margin: 40px;
+    margin-left: 20px;
+    
+}
+.header-item-1{
+    color:white;
+    margin-right: 10px;
+    margin-left: 50px;
+}
+.header-item-2{
+    color:white;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.header-item-3{
+    color:white;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.header-item-4{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.background-1 img{
+    width: 100%;
+}
+.background-2 img{
+    width: 100%;
+}
+.background-3 img{
+    width: 100%;
+}
+.background-4 img{
+    width: 100%;
+}
+.background-5 img{
+    width: 100%;
+}
+.background-6 img{
+    width: 100%;
+}

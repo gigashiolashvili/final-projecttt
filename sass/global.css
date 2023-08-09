@@ -62,44 +62,98 @@ a {
 
 body {
   background-image: url(../images/background.jpg);
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  background-size: cover;
   background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100%;
+  height: 100%;
+}
+body .first-text p {
+  width: 100px;
+  height: 30px;
+  margin-top: 50px;
+  margin-right: 50px;
 }
 body .container {
   display: flex;
 }
 body .container img {
-  min-width: 60px;
-  max-width: 60px;
-  max-height: 60px;
-  margin-top: 25px;
-  margin-right: 20px;
-  margin-left: 30px;
+  background-size: 60px;
+  width: 60px;
+  height: 60px;
+  margin: 30px;
 }
 body .container ul {
-  color: rgba(0, 0, 0, 0.074);
-  font-size: 20px;
-  margin: 40px;
-  padding: 0px;
   display: flex;
+  margin: 40px;
+  margin-right: 30px;
+}
+body .container ul .logos {
+  display: flex;
+  width: 30px;
+  height: 30px;
+  size: 30px;
+  background-size: 30px;
+  margin-left: 700px;
+}
+body .container ul .logos .search {
+  width: 30px;
+  height: 30px;
+  background-size: 40px;
+}
+body .container ul .logos .menu {
+  display: none;
 }
 body .container ul li {
-  margin-right: 30px;
-}
-body .container div {
   display: flex;
-  font-size: 30px;
-  margin: 30px;
-  margin-top: 30px;
-  margin-left: 580px;
-  margin-bottom: 30px;
+  color: rgba(204, 0, 255, 0.542);
   margin-right: 30px;
-  padding: 20px;
-  cursor: pointer;
 }
-body .container div i {
+
+body {
+  background-image: url(../images/background.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100%;
+  height: 100%;
+}
+body .first-text p {
+  width: 100px;
+  height: 30px;
+  margin-top: 50px;
   margin-right: 50px;
+}
+body .container1 {
+  display: flex;
+}
+body .container1 img {
+  background-size: 60px;
+  width: 60px;
+  height: 60px;
+  margin: 30px;
+}
+body .container1 ul {
+  display: flex;
+  margin: 40px;
+  margin-right: 30px;
+}
+body .container1 ul .logos {
+  display: flex;
+  width: 30px;
+  height: 30px;
+  size: 30px;
+  background-size: 30px;
+  margin-left: 700px;
+}
+body .container1 ul .logos .search {
+  width: 30px;
+  height: 30px;
+  background-size: 40px;
+}
+body .container1 ul .logos .menu {
+  display: none;
+}
+body .container1 ul li {
+  display: flex;
+  color: rgba(204, 0, 255, 0.542);
+  margin-right: 30px;
 }/*# sourceMappingURL=global.css.map */
